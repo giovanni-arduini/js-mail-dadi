@@ -12,12 +12,12 @@ const max = Math.floor(7);
 // console.log(max);
 
 let userNumber = Math.floor(Math.random() * (max - min) + min); //number
-console.log(userNumber);
+console.log(`Il dado dell'umano ha fatto ${userNumber}`); // string
 
 // generare un numero random per il CPU
 
 let cpuNumber = Math.floor(Math.random() * (max - min) + min); //number
-console.log(cpuNumber);
+console.log(`Il dado del computer ha fatto ${cpuNumber}`); // string
 
 // prova = Math.floor(Math.random() * (max - min) + min);
 // console.log(prova);
@@ -29,7 +29,7 @@ console.log(cpuNumber);
 if (userNumber === cpuNumber) {
   console.log(`È un pareggio!`);
 } else if (userNumber > cpuNumber) {
-  console.log(`Vittoria dell'umanità!`);
+  console.log(`Vittoria dell'umanità! Prendi questo Skynet!`);
 }
 // ALTRIMENTI
 //  => mostrare messaggio di vittoria CUP
