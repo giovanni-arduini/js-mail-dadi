@@ -12,6 +12,8 @@ const emailList = [
 
 // Chiedere all'utente la sua email
 
+let userEmail = prompt("Inserisci il tuo indirizzo e-mail");
+
 // Confrontare la mail con gli elementi della lista
 
 // SE la mail dell'utente è presente nella lista
