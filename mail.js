@@ -3,7 +3,12 @@ nella lista di chi può accedere, stampa un messaggio
 appropriato sull’esito del controllo.
  */
 
-// Lista indirizzi email con accesso
+// Lista indirizzi email con accesso (array)
+const emailList = [
+  "donald.duck@mail.pap",
+  "naruto.uzumaki@konoha.com",
+  "stevejobsreal@mac.com",
+];
 
 // Chiedere all'utente la sua email
 
