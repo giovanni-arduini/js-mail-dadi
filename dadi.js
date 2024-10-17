@@ -6,9 +6,9 @@ fa il punteggio più alto. */
 // Generare un numero random da 1 a 6 per l'utente
 // posso crearlo con Math.random
 // limito lo span di min e max moltiplico per 10 e lo rendo intero
-const min = Math.ceil(1);
+const min = 1;
 // console.log(min);
-const max = Math.floor(7);
+const max = 7;
 // console.log(max);
 
 let userNumber = Math.floor(Math.random() * (max - min) + min); //number
