@@ -18,5 +18,11 @@ let userEmail = prompt("Inserisci il tuo indirizzo e-mail");
 
 // SE la mail dell'utente è presente nella lista
 //  => Dare messaggio di avvenuto accesso
+if (emailList.includes(userEmail)) {
+  console.log(`Accesso consentito. Benvenuto ${userEmail}!`);
+} else {
+  console.log(`Accesso negato. L'indirizzo ${userEmail} non è abilitato.`);
+}
+
 // ALTRIMENTI
 //  => Dare messaggio di accesso negato
